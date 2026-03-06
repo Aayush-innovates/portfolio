@@ -1,0 +1,58 @@
+.project-card {
+    border: 1px solid var(--gray);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.project-image {
+    border-bottom: 1px solid var(--gray);
+    height: 200px;
+    overflow: hidden;
+}
+
+.project-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.project-stack {
+    padding: 8px;
+    border-bottom: 1px solid var(--gray);
+    color: var(--gray);
+    font-size: 0.9rem;
+}
+
+.project-body {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    flex-grow: 1;
+}
+
+.project-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.project-description {
+    color: var(--gray);
+    font-size: 1rem;
+}
+
+.project-actions {
+    display: flex;
+    gap: 16px;
+    margin-top: auto;
+}
+
+/* Small variant styles matching Figma */
+.project-card.small .project-body {
+    padding: 8px;
+}
+
+.project-card.small .project-title {
+    font-size: 1.25rem;
+}

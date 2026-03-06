@@ -1,0 +1,36 @@
+.quote-container {
+    display: flex;
+    justify-content: center;
+    padding: 80px 0;
+}
+
+.quote {
+    position: relative;
+    padding: 32px;
+    max-width: 712px;
+}
+
+.quote-text {
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.quote-author {
+    position: absolute;
+    right: -1px;
+    bottom: -40px;
+    padding: 16px;
+    font-size: 1.25rem;
+}
+
+.quote-icon {
+    position: absolute;
+    background-color: var(--background);
+    padding: 4px 8px;
+    top: -20px;
+}
+
+.quote-icon-start {
+    left: 20px;
+}

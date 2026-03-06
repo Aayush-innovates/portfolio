@@ -1,0 +1,20 @@
+.skill-block {
+    border: 1px solid var(--gray);
+    min-width: 150px;
+}
+
+.skill-header {
+    padding: 8px;
+    border-bottom: 1px solid var(--gray);
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.skill-list {
+    padding: 8px;
+    color: var(--gray);
+    font-size: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}

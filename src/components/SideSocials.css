@@ -1,0 +1,32 @@
+.side-socials {
+    position: fixed;
+    left: 32px;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    z-index: 100;
+}
+
+.side-socials .line {
+    width: 1px;
+    height: 191px;
+    background-color: var(--gray);
+}
+
+.side-socials .social-links {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.side-socials .social-links svg:hover path {
+    fill: var(--white);
+}
+
+@media (max-width: 1200px) {
+    .side-socials {
+        display: none;
+    }
+}

@@ -1,0 +1,69 @@
+.about-content {
+    display: flex;
+    gap: 32px;
+    align-items: flex-start;
+}
+
+.about-text {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.about-visual {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+}
+
+.about-graphics {
+    width: 340px;
+    height: 420px;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+}
+
+.about-graphics .main-image {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    position: relative;
+    z-index: 5;
+}
+
+.about-dots {
+    position: absolute;
+    top: 30%;
+    right: -20px;
+    z-index: 1;
+}
+
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: flex-end;
+}
+
+.facts-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.fact {
+    padding: 8px;
+    font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column;
+    }
+
+    .skills-grid {
+        justify-content: flex-start;
+    }
+}

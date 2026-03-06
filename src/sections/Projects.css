@@ -1,0 +1,36 @@
+.projects-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.view-all {
+    margin-top: 10px;
+    color: var(--white);
+    font-weight: 500;
+}
+
+.view-all:hover {
+    text-decoration: underline;
+}
+
+.section-title-sub h2 {
+    font-size: 1.5rem !important;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 16px;
+    margin-top: 24px;
+}
+
+.small-grid {
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+}
+
+@media (max-width: 768px) {
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,19 @@
+.section-title {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 45px;
+}
+
+.section-title h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.section-title .line {
+    height: 1px;
+    background-color: var(--primary);
+    flex-grow: 1;
+    max-width: 512px;
+}
